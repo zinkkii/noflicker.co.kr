@@ -1,13 +1,5 @@
 import { useTheme } from "@mui/material/styles";
-import {
-  AppBar,
-  Toolbar,
-  Stack,
-  Link,
-  Container,
-  Box,
-  Button,
-} from "@mui/material";
+import { AppBar, Toolbar, Stack, Container, Box } from "@mui/material";
 import useOffSetTop from "../../hooks/useOffSetTop";
 import useResponsive from "../../hooks/useResponsive";
 import { bgBlur } from "../../utils/style/cssStyles";

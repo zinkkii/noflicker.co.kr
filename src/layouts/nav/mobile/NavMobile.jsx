@@ -3,8 +3,9 @@ import { useLocation } from "react-router-dom";
 import { List, Drawer, IconButton, Button, Stack, Link } from "@mui/material";
 import Iconify from "../../../utils/iconify/Iconify";
 import Logo from "../../../components/main/Logo";
+import { StyledNavItem } from "./styles";
 
-export default function NavMobile({ data }) {
+export default function NavMobile() {
   const { pathname } = useLocation();
   const [open, setOpen] = useState(false);
   const NAV = { W_BASE: 260, W_DRAWER: 280, H_ITEM: 48, H_ITEM_SUB: 36 };
@@ -34,18 +35,20 @@ export default function NavMobile({ data }) {
           },
         }}
       >
-        {/* <Scrollbar> */}
-        <Logo sx={{ mx: 2.5, my: 3 }} />
-
         <List component="nav" disablePadding>
-          <Link>dfdfdf</Link>
-          <br />
-          <Link>dfdfdf</Link>
-          {/* {data.map((link) => (
-              <NavList key={link.title} item={link} />
-            ))} */}
+          <StyledNavItem to="/flicker" sx={{ fontFamily: "Jamsil2" }}>
+            플리커란?
+          </StyledNavItem>
+          <StyledNavItem to="/service" sx={{ fontFamily: "Jamsil2" }}>
+            서비스 안내
+          </StyledNavItem>
+          <StyledNavItem to="/freecheckup" sx={{ fontFamily: "Jamsil2" }}>
+            무료검진신청
+          </StyledNavItem>
+          <StyledNavItem to="/cs" sx={{ fontFamily: "Jamsil2" }}>
+            고객센터
+          </StyledNavItem>
         </List>
-        {/* </Scrollbar> */}
       </Drawer>
     </>
   );

@@ -55,15 +55,25 @@ export default function Contents() {
           },
         }}
       >
-        <Typography
-          variant="h6"
-          sx={{
-            fontFamily: "Jamsil2",
-            fontSize: "1.325rem",
-          }}
-        >
-          집, 매장, 사무실..원하시는 공간의 모든 플리커현상을 제거 해드립니다!
-        </Typography>
+        <Box sx={{ backgroundColor: "#58bc9e", borderRadius: "40px" }}>
+          <Typography
+            variant="h6"
+            sx={{
+              fontFamily: "Jamsil2",
+              fontSize: "1.5rem",
+              borderRadius: "10%",
+              color: "#fff",
+              marginTop: 2,
+              marginLeft: 3,
+              marginRight: 3,
+              marginBottom: 2,
+            }}
+          >
+            집, 매장, 사무실..원하시는 공간의{" "}
+            <font style={{ color: "#222" }}>모든 플리커현상을 제거</font>{" "}
+            해드립니다!
+          </Typography>
+        </Box>
 
         <Typography sx={{ color: "text.secondary", fontFamily: "Jamsil2" }}>
           ※TV, 태블릿, 휴대폰 등 전자기기 플리커 검진도 가능합니다. <br />
@@ -103,7 +113,10 @@ export default function Contents() {
           },
         }}
       >
-        <Typography sx={{ color: "text.secondary", fontFamily: "Jamsil2" }}>
+        <Typography
+          variant="body1"
+          sx={{ color: "text.primary", fontFamily: "Jamsil2" }}
+        >
           노플리커 서비스 자세히 알아보기
           <IconButton component={RouterLink} to="/service" color="primary">
             <Iconify icon="carbon:direction-straight-right" />
@@ -118,7 +131,7 @@ function ServiceItem({ service, index }) {
   const { icon, content, number } = service;
 
   return (
-    <Card
+    <Stack
       sx={{
         px: 4,
         py: 5,
@@ -145,16 +158,16 @@ function ServiceItem({ service, index }) {
               "primary"
             }
           >
-            <Iconify icon={number} />
+            <Iconify icon={number} width={30} />
           </IconButton>
         </TextMaxLine>
         <TextMaxLine
-          variant="body2"
+          variant="body1"
           sx={{ color: "text.secondary", fontFamily: "Jamsil2" }}
         >
           {content}
         </TextMaxLine>
       </Stack>
-    </Card>
+    </Stack>
   );
 }

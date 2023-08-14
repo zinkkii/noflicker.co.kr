@@ -31,7 +31,8 @@ export default function BottomFix() {
             cursor: "pointer",
           }}
         >
-          FLICKER ZERO ZONE 최초 1회 무료검진 신청
+          FLICKER ZERO ZONE{" "}
+          <font style={{ color: "#f93b3b" }}>최초 1회 무료</font>검진 신청
         </Typography>
       </div>
     </div>

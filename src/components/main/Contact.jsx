@@ -18,38 +18,40 @@ import axios from "axios";
 
 export default function ContactSection() {
   return (
-    <Container
-      sx={{
-        overflow: "hidden",
-        pt: { xs: 5, md: 10 },
-        pb: { xs: 10, md: 15 },
-      }}
-    >
-      <Stack
-        spacing={3}
+    <div style={{ backgroundColor: "#c9f2e5" }}>
+      <Container
         sx={{
-          maxWidth: 1200,
-          mb: { xs: 8, md: 5 },
-          mx: { xs: "auto", md: "unset" },
-          textAlign: { xs: "center", md: "unset" },
+          overflow: "hidden",
+          pt: { xs: 5, md: 10 },
+          pb: { xs: 10, md: 15 },
         }}
       >
-        <Typography
-          variant="h3"
+        <Stack
+          spacing={3}
           sx={{
-            fontSize: { xs: "1.5rem", md: "2rem", lg: "2.5rem" },
-            fontFamily: "Jamsil2",
-            fontWeight: 900,
-            textAlign: "center",
+            maxWidth: 1200,
+            mb: { xs: 8, md: 5 },
+            mx: { xs: "auto", md: "unset" },
+            textAlign: { xs: "center", md: "unset" },
           }}
         >
-          플리커 검진, 무료로 신청하세요
-        </Typography>
-      </Stack>
-      <Grid xs={12} md={6} lg={6}>
-        <ContactForm />
-      </Grid>
-    </Container>
+          <Typography
+            variant="h3"
+            sx={{
+              fontSize: { xs: "1.5rem", md: "2rem", lg: "2.5rem" },
+              fontFamily: "Jamsil2",
+              fontWeight: 900,
+              textAlign: "center",
+            }}
+          >
+            플리커 검진, 무료로 신청하세요
+          </Typography>
+        </Stack>
+        <Grid xs={12} md={6} lg={6}>
+          <ContactForm />
+        </Grid>
+      </Container>
+    </div>
   );
 }
 
