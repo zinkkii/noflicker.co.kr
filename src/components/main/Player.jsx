@@ -20,7 +20,13 @@ export default function PlayerSection() {
           플리커 현상이란?
         </Typography>
 
-        <Typography sx={{ color: "text.secondary", fontFamily: "Jamsil2" }}>
+        <Typography
+          sx={{
+            color: "text.secondary",
+            fontFamily: "Jamsil2",
+            wordBreak: "keep-all",
+          }}
+        >
           전원 공급의 변동으로 인해 조명이 미세하게 떨리며 일정한 주기로 번갈아
           깜빡이는 현상
           <br />

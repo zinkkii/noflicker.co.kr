@@ -199,7 +199,7 @@ function ContactForm() {
         />
       </Stack>
       <Box sx={{ paddingTop: 5, paddingBottom: 1, fontFamily: "Jamsil2" }}>
-        <Typography variant="p">
+        <Typography variant="p" sx={{ wordBreak: "keep-all" }}>
           * 신청해주신 순서대로 연락을 드리고 있습니다. 신청인원이 많을 경우
           연락이 늦어질 수 있는 점 양해 바랍니다.
           <br />* 기재해주신 정보는 신청하신 상담 외에 사용하지 않습니다.

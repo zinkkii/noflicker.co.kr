@@ -67,6 +67,7 @@ export default function Contents() {
               marginLeft: 3,
               marginRight: 3,
               marginBottom: 2,
+              wordBreak: "keep-all",
             }}
           >
             집, 매장, 사무실..원하시는 공간의{" "}
@@ -75,7 +76,13 @@ export default function Contents() {
           </Typography>
         </Box>
 
-        <Typography sx={{ color: "text.secondary", fontFamily: "Jamsil2" }}>
+        <Typography
+          sx={{
+            color: "text.secondary",
+            fontFamily: "Jamsil2",
+            wordBreak: "keep-all",
+          }}
+        >
           ※TV, 태블릿, 휴대폰 등 전자기기 플리커 검진도 가능합니다. <br />
           전자기기의 경우 디스플레이 설정에 따라 플리커현상을 제거할 수도
           있습니다.
