@@ -45,7 +45,7 @@ export default function PlayerSection() {
           <Grid xs={12} md={6} lg={6}>
             <Box>
               <Typography variant="h6" sx={{ fontFamily: "Jamsil2" }}>
-                - 건강에 안전한 조명
+                - 플리커현상이 있는 조명
               </Typography>
               <Box borderRight={9} borderColor="#fff">
                 <Player
@@ -59,7 +59,7 @@ export default function PlayerSection() {
           <Grid xs={12} md={6} lg={6}>
             <Box borderRight={9} borderColor="#fff">
               <Typography variant="h6" sx={{ fontFamily: "Jamsil2" }}>
-                - 플리커현상이 있는 조명
+                - 건강에 안전한 조명
               </Typography>
               <Player
                 controls
