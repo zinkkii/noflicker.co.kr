@@ -21,9 +21,9 @@ export default function BottomFix() {
     <div>
       <div style={style}>
         <Typography
-          onClick={() => {
-            navigate("/freecheckup");
-          }}
+          // onClick={() => {
+          //   navigate("/freecheckup");
+          // }}
           sx={{
             fontFamily: "Jamsil2",
             color: "#fff",

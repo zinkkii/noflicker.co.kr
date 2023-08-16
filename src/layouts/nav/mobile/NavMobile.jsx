@@ -35,7 +35,7 @@ export default function NavMobile() {
           },
         }}
       >
-        <List component="nav" disablePadding>
+        {/* <List component="nav" disablePadding>
           <StyledNavItem to="/flicker" sx={{ fontFamily: "Jamsil2" }}>
             플리커란?
           </StyledNavItem>
@@ -48,6 +48,20 @@ export default function NavMobile() {
           <StyledNavItem to="/cs" sx={{ fontFamily: "Jamsil2" }}>
             고객센터
           </StyledNavItem>
+        </List> */}
+        {/* 위에 링크 주석 풀기(나중에)!!! */}
+
+        <List component="nav" disablePadding>
+          <StyledNavItem sx={{ fontFamily: "Jamsil2" }}>
+            플리커란?
+          </StyledNavItem>
+          <StyledNavItem sx={{ fontFamily: "Jamsil2" }}>
+            서비스 안내
+          </StyledNavItem>
+          <StyledNavItem sx={{ fontFamily: "Jamsil2" }}>
+            무료검진신청
+          </StyledNavItem>
+          <StyledNavItem sx={{ fontFamily: "Jamsil2" }}>고객센터</StyledNavItem>
         </List>
       </Drawer>
     </>

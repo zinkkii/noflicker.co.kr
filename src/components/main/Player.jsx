@@ -50,7 +50,7 @@ export default function PlayerSection() {
               <Box borderRight={9} borderColor="#fff">
                 <Player
                   controls
-                  url="https://www.dropbox.com/s/odzycivuo9cy5rg/video_01.mp4?dl=0"
+                  url="https://automanix.s3.ap-northeast-2.amazonaws.com/noflicker/nnoflicker.mp4"
                 />
               </Box>
             </Box>
@@ -63,7 +63,7 @@ export default function PlayerSection() {
               </Typography>
               <Player
                 controls
-                url="https://www.dropbox.com/s/7cx04n8rr4w5rbg/video_02.mp4?dl=0"
+                url="https://automanix.s3.ap-northeast-2.amazonaws.com/noflicker/noflicker.mp4"
               />
             </Box>
           </Grid>
