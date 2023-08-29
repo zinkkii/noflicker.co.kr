@@ -16,11 +16,14 @@ export default function Footer() {
             sx={{
               color: "text.secondary",
               mt: 5,
+              mb: 10,
               fontSize: "0.9rem",
               wordBreak: "keep-all",
             }}
           >
-            © 2023. All rights reserved
+            주식회사 티라노 | 경기도 수원시 영통구 삼성로 168번길 48,
+            401호(매탄동) | 대표자:강주상 사업자 등록번호 : 617-88-01732 <br />©
+            2023. All rights reserved
           </Typography>
         </Container>
       </Box>
