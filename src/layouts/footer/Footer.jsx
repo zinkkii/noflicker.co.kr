@@ -21,9 +21,9 @@ export default function Footer() {
               wordBreak: "keep-all",
             }}
           >
-            주식회사 티라노 | 경기도 수원시 영통구 삼성로 168번길 48,
-            401호(매탄동) | 대표자:강주상 사업자 등록번호 : 617-88-01732 <br />©
-            2023. All rights reserved
+            (주)노플리커 | 경기도 용인시 처인구 포곡읍 석성로888번길 18, 301호 |
+            대표자:강주상 | 사업자 등록번호 : 617-88-01732 <br />
+            <br />© 2023. All rights reserved
           </Typography>
         </Container>
       </Box>
