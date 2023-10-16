@@ -1,8 +1,6 @@
 import { alpha, styled } from "@mui/material/styles";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import { bgGradient } from "../../utils/style/cssStyles";
-import TextMaxLine from "../../utils/text-max-line";
-import Image from "../../utils/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

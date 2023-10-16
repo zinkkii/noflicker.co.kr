@@ -72,8 +72,8 @@ export default function Header() {
               <Typography
                 sx={{ color: "text.secondary", fontFamily: "Jamsil2" }}
               >
-                The ZONE is built on top of MUI, a powerful library that
-                provides flexible, customizable, and easy-to-use components.
+                Testtestestestestestestestse NOFLICKER NOFLICKERNOFLICKER 테스트
+                플리커 현상에 대해 나무위키 긁어서 채워두기
               </Typography>
             </Stack>
           </Grid>

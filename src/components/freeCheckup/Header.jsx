@@ -72,8 +72,7 @@ export default function Header() {
               <Typography
                 sx={{ color: "text.secondary", fontFamily: "Jamsil2" }}
               >
-                The ZONE is built on top of MUI, a powerful library that
-                provides flexible, customizable, and easy-to-use components.
+                검진무료신청 내용내용
               </Typography>
             </Stack>
           </Grid>

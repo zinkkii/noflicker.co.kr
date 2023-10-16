@@ -1,12 +1,5 @@
 import { Link as RouterLink } from "react-router-dom";
-import {
-  Stack,
-  Container,
-  Typography,
-  Card,
-  Box,
-  IconButton,
-} from "@mui/material";
+import { Stack, Container, Typography, Box, IconButton } from "@mui/material";
 import Iconify from "../../utils/iconify/Iconify";
 import SvgColor from "../../utils/svg-color/SvgColor";
 import TextMaxLine from "../../utils/text-max-line";
@@ -125,13 +118,13 @@ export default function Contents() {
           sx={{ color: "text.primary", fontFamily: "Jamsil2" }}
         >
           노플리커 서비스 자세히 알아보기
-          {/* <IconButton component={RouterLink} to="/service" color="primary">
-            <Iconify icon="carbon:direction-straight-right" />
-          </IconButton> */}
-          {/* 위에 링크달면 주석 풀기 */}
-          <IconButton component={RouterLink} color="primary">
+          <IconButton component={RouterLink} to="/service" color="primary">
             <Iconify icon="carbon:direction-straight-right" />
           </IconButton>
+          {/* 위에 링크달면 주석 풀기 */}
+          {/* <IconButton component={RouterLink} color="primary">
+            <Iconify icon="carbon:direction-straight-right" />
+          </IconButton> */}
         </Typography>
       </Stack>
     </Container>
